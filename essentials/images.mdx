@@ -1,59 +1,98 @@
 ---
-title: 'Images and embeds'
-description: 'Add image, video, and other HTML elements'
+title: 'Portfolio & Examples'
+description: 'See our work and project examples across all development areas'
 icon: 'image'
 ---
 
-<img
-  style={{ borderRadius: '0.5rem' }}
-  src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
-/>
+# Our Work & Portfolio
 
-## Image
+Explore some of our recent projects and see the quality of work we deliver across FiveM, Discord, and Web Development.
 
-### Using Markdown
+## Featured Projects
 
-The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets you add images using the following code
+<CardGroup cols={2}>
+  <Card title="FiveM Server Management System" icon="gamepad">
+    Complete server management solution with custom resources, player management, and automated systems.
+  </Card>
+  <Card title="Discord Community Bot" icon="comments">
+    Advanced Discord bot with custom commands, moderation tools, and community engagement features.
+  </Card>
+  <Card title="E-commerce Web Application" icon="shopping-cart">
+    Full-stack e-commerce platform with modern UI, payment integration, and inventory management.
+  </Card>
+  <Card title="FiveM Roleplay Framework" icon="users">
+    Comprehensive roleplay framework with custom jobs, housing system, and economy management.
+  </Card>
+</CardGroup>
 
-```md
-![title](/path/image.jpg)
-```
+## Development Showcase
 
-Note that the image file size must be less than 5MB. Otherwise, we recommend hosting on a service like [Cloudinary](https://cloudinary.com/) or [S3](https://aws.amazon.com/s3/). You can then use that URL and embed.
+### FiveM Development Examples
 
-### Using embeds
+<Expandable title="Custom Resource Development">
+  <ResponseField name="Advanced Job System" type="string">
+    Custom job system with unique mechanics, progression tracking, and player rewards.
+  </ResponseField>
+  <ResponseField name="Housing System" type="string">
+    Complete housing system with property management, interior customization, and ownership tracking.
+  </ResponseField>
+  <ResponseField name="Economy Management" type="string">
+    Sophisticated economy system with dynamic pricing, market fluctuations, and player trading.
+  </ResponseField>
+</Expandable>
 
-To get more customizability with images, you can also use [embeds](/writing-content/embed) to add images
+### Discord Development Examples
 
-```html
-<img height="200" src="/path/image.jpg" />
-```
+<Expandable title="Bot Development">
+  <ResponseField name="Moderation Bot" type="string">
+    Advanced moderation bot with auto-moderation, warning systems, and appeal processes.
+  </ResponseField>
+  <ResponseField name="Community Bot" type="string">
+    Community engagement bot with games, polls, events, and member interaction features.
+  </ResponseField>
+  <ResponseField name="Utility Bot" type="string">
+    Multi-purpose utility bot with server management, information commands, and automation.
+  </ResponseField>
+</Expandable>
 
-## Embeds and HTML elements
+### Web Development Examples
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/4KzFe50RQkQ"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  style={{ width: '100%', borderRadius: '0.5rem' }}
-></iframe>
+<Expandable title="Web Applications">
+  <ResponseField name="Business Dashboard" type="string">
+    Comprehensive business dashboard with analytics, reporting, and management tools.
+  </ResponseField>
+  <ResponseField name="API Integration" type="string">
+    Custom API development with authentication, rate limiting, and comprehensive documentation.
+  </ResponseField>
+  <ResponseField name="Mobile-Responsive Design" type="string">
+    Fully responsive web applications optimized for all devices and screen sizes.
+  </ResponseField>
+</Expandable>
 
-<br />
+## Client Testimonials
 
-<Tip>
+<Quote author="Server Owner" title="FiveM Server">
+  "Syntax Studios transformed our server with their custom resources. The quality and attention to detail exceeded our expectations. Our player count has tripled since implementing their solutions!"
+</Quote>
 
-Mintlify supports [HTML tags in Markdown](https://www.markdownguide.org/basic-syntax/#html). This is helpful if you prefer HTML tags to Markdown syntax, and lets you create documentation with infinite flexibility.
+<Quote author="Community Manager" title="Discord Server">
+  "The Discord bot they created for us is incredible. It handles everything from moderation to community engagement. Our server has never been more organized and active."
+</Quote>
 
-</Tip>
+<Quote author="Business Owner" title="Web Application">
+  "Professional, reliable, and innovative. Syntax Studios delivered exactly what we needed for our business. The web application they built has streamlined our operations significantly."
+</Quote>
 
-### iFrames
+## Ready to See Your Project Here?
 
-Loads another HTML page within the document. Most commonly used for embedding videos.
+<Card
+  title="Start Your Project"
+  icon="rocket"
+  href="mailto:contact@syntaxstudios.com"
+>
+  Let's discuss your vision and create something amazing together.
+</Card>
 
-```html
-<iframe src="https://www.youtube.com/embed/4KzFe50RQkQ"> </iframe>
-```
+<Note>
+All projects are customized to meet specific client requirements. Contact us to discuss your unique needs and see how we can help bring your vision to life.
+</Note>
