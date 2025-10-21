@@ -8,28 +8,30 @@
     "dark": "#4F46E5"
   },
   "favicon": "/favicon.svg",
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "index",
-        "quickstart"
-      ]
-    },
-    {
-      "group": "About Us",
-      "pages": [
-        "essentials/who-are-we"
-      ]
-    },
-    {
-      "group": "Services",
-      "pages": [
-        "essentials/code",
-        "essentials/images"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "About Us",
+        "pages": [
+          "essentials/who-are-we"
+        ]
+      },
+      {
+        "group": "Services",
+        "pages": [
+          "essentials/code",
+          "essentials/images"
+        ]
+      }
+    ]
+  },
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
