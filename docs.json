@@ -44,7 +44,7 @@
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "mailto:contact@syntaxstudios.com"
+      "href": "https://syntaxstudios.com/contact"
     }
   },
   "footer": {
